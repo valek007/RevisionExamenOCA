@@ -6,10 +6,10 @@ public class Test0 {
 
 		// Given the code fragment:
 
-		int x = 100;
-		int a = x++;
-		int b = ++x;
-		int c = x++;
+		int x = 100; 
+		int a = x++; 
+		int b = ++x; 
+		int c = x++; 
 		int d = (a < b) ? (a < c) ? a : (b < c) ? b : c : a;
 		System.out.println(d);
 		
