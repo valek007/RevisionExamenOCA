@@ -26,6 +26,7 @@ public class Test9 {
 //		return s.toString();
 
 class CCMask{
+	@SuppressWarnings("unused")
 	public static String maskCC(String creditCard) {
 		String x = "XXXX-XXXX-XXXX-";
 		//line n1
