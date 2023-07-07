@@ -1,12 +1,10 @@
-package examen.parte4;
-//import examen.parte4.p1.MyString;
+package examen.parte4.p1;
 
 public class Test1 {
 //	Given the definitions of the MyString class and the Test class:
-	//Go to package p1
 	public static void main(String[] args) {
 		System.out.println("Hello "+ new StringBuilder("Java SE 8"));
-//		System.out.println("Hello "+ new MyString("Java SE 8"));
+		System.out.println("Hello "+ new MyString("Java SE 8"));
 	}
 }
 //	What is the result?
